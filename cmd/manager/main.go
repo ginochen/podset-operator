@@ -11,8 +11,8 @@ import (
 	"github.com/operator-framework/operator-sdk/pkg/leader"
 	"github.com/operator-framework/operator-sdk/pkg/ready"
 	sdkVersion "github.com/operator-framework/operator-sdk/version"
-	"github.com/xcoulon/podset-operator/pkg/apis"
-	"github.com/xcoulon/podset-operator/pkg/controller"
+	"github.com/xcoulon/podset-operator/pkg/apis"  // imported apis.go from the directory of apis/
+	"github.com/xcoulon/podset-operator/pkg/controller" // imported controller.go from the directory of controller/
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 	"sigs.k8s.io/controller-runtime/pkg/client/config"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
