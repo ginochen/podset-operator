@@ -1,3 +1,4 @@
+// this file can be created by crd yaml file, or the other way around
 package v1alpha1
 
 import (
