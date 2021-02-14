@@ -1,5 +1,6 @@
 // this file can be created by crd yaml file, or the other way around
 // this is a test
+// this is another test
 package v1alpha1
 
 import (
